@@ -1,0 +1,78 @@
+.service {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 10px;
+    flex: 1;
+    max-width: 400px;
+    height: 350px;
+    text-align: left;
+}
+
+.service-icon img {
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 30px;
+    color: #402D18;
+}
+
+.service-card p {
+    font-size: 18px;
+    color: #424242;
+    line-height: 20px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #f89720;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-link:hover {
+    color: #f89720;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .service .info {
+        margin: 10px;
+    }
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 20px;
+    }
+    .service-card {
+        max-width: 100%;
+        margin: 20px 0;
+        height: auto;
+    }
+    .service-card h3 {
+        font-size: 24px;
+    }
+    .service-card p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .service-link {
+        font-size: 16px;
+    }
+}

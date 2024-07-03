@@ -1,0 +1,80 @@
+.process {
+    text-align: center;
+    background-color: #FFF9F1;
+    margin: 100px auto;
+    padding-top: 50px;
+}
+
+.processs-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+.process-card {
+    padding: 30px;
+    margin: 10px;
+    flex: 1;
+}
+
+.process-icon img {
+    margin-bottom: 20px;
+}
+
+.process-card h3 {
+    font-size: 30px;
+    color: #402D18;
+}
+
+.process-card p {
+    font-size: 18px;
+    color: #424242;
+    line-height: 20px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.process-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #f89720;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.process-link:hover {
+    color: #f89720;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .process .info {
+        margin: 10px;
+    }
+    .processs-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 20px;
+        display: flex;
+        justify-content: space-between;
+        flex: 1 1 45% !important;
+    }
+    .process-card {
+        max-width: 100%;
+        margin: 0px;
+        height: auto;
+    }
+    .p_img {
+        width: 50px;
+    }
+    .process-card h3 {
+        font-size: 24px;
+    }
+    .process-card p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .process-link {
+        font-size: 16px;
+    }
+}

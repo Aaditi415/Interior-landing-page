@@ -1,0 +1,28 @@
+.our-img .info {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.img_process {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    margin: 50px 150px;
+}
+
+@media (max-width: 768px) {
+    .info {
+        margin-left: 0px;
+    }
+    .info1 {
+        margin-left: 0;
+    }
+    .img_process {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img_process img {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,13 +1,34 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+/* src/index.css */
+
+@font-face {
+    font-family: 'Bentoga';
+    src: url('E:\react-landing-page\src\fonts\Black Studio - Bentoga-Thin.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bentoga';
+    src: url('E:\react-landing-page\src\fonts\Black Studio - BentogaItalic-Thin.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* Apply the font globally or to specific elements */
+
+body {
+    font-family: 'Bentoga', sans-serif;
 }

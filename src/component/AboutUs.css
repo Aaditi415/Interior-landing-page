@@ -1,0 +1,123 @@
+.about {
+    background: #FFF9F1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about .a_img {
+    margin-right: 100px;
+}
+
+.about .info {
+    margin: 100px;
+}
+
+.info {
+    margin-left: 50px;
+}
+
+.info span {
+    color: #FF9900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.info h3 {
+    color: #402D18;
+    font-size: 54px;
+    margin-top: 5px;
+}
+
+.info p {
+    color: #424242;
+    font-family: 'Poppins', sans-serif;
+    line-height: 18px;
+    font-size: 18px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -60px;
+    margin-bottom: 15px;
+}
+
+.number {
+    font-size: 54px;
+    color: #f89720;
+}
+
+.description {
+    font-size: 26px;
+    color: #5c3a1f;
+}
+
+.text span {
+    color: #232323 !important;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.a_img2 {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        margin: 50px 0;
+    }
+    .a_img2 {
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+    .a_img {
+        display: none;
+    }
+    .about .info {
+        margin: 20px;
+    }
+    .info span {
+        color: #FF9900;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+    .info h3 {
+        color: #402D18;
+        font-size: 36px;
+        margin-top: 5px;
+    }
+    .info p {
+        color: #424242;
+        font-family: 'Poppins', sans-serif;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .stats-container {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .number {
+        font-size: 54px;
+        color: #f89720;
+    }
+    .description {
+        font-size: 26px;
+        color: #5c3a1f;
+    }
+    .text span {
+        color: #232323;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
